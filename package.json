@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ecsunder15/neural-net-tech/issues"
   },
-  "homepage": "https://github.com/ecsunder15/neural-net-tech#readme"
+  "homepage": "https://github.com/ecsunder15/neural-net-tech#readme",
+  "dependencies": {
+    "karma": "^2.0.0"
+  }
 }
