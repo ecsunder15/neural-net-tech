@@ -1,0 +1,19 @@
+{
+  "name": "neural-net-tech",
+  "version": "1.0.0",
+  "description": "project on neural networks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecsunder15/neural-net-tech.git"
+  },
+  "author": "Elise Sunderland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecsunder15/neural-net-tech/issues"
+  },
+  "homepage": "https://github.com/ecsunder15/neural-net-tech#readme"
+}
