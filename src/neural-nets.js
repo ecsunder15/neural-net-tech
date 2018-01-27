@@ -1,5 +1,9 @@
-import { Layer, Network } from 'synaptic';
-import _ from 'lodash';
+//import { Layer, Network } from 'synaptic';
+//import _ from 'lodash';
+var synaptic = require('synaptic');
+var Layer = synaptic.Layer;
+var Network = synaptic.Network;
+var _ = require('lodash');
 
 var inputLayer = new Layer(2); //1s and 0s
 var hiddenLayer1 = new Layer(6);
@@ -68,4 +72,5 @@ function checkResults(score, expected) {
   console.log(score, _.isEqual(expected, myNetwork.activate(score).map(x => Math.round(x))))
 }
 
+console.log("Soccer score simulator --- let's check our results");
 showResults();
